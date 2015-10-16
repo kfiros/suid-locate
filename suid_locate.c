@@ -174,7 +174,10 @@ cleanup:
 * Name: 	main
 * Description:	Main function of the program
 *******************************************************************/
-int main() {
+int main(int argc, char * argv[]) {
+	UNUSED(argc);
+	UNUSED(argv);
+
 	fprintf(stdout, "[*] suid-locate (Kfiros 2015) \n");
 	fprintf(stdout, "[*] Searching for SUID/SGID files in your system... \n");
 

@@ -46,6 +46,8 @@ typedef enum {
 #define UPPER_FOLDER_STRING ("..")
 #define UPPER_FOLDER_LENGTH (2)
 
+#define UNUSED(expr) do { (void)(expr); } while (false)
+
 /*******************************************************************
 * Prototypes 
 *******************************************************************/
